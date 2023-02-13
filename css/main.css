@@ -59,7 +59,7 @@ nav {
 
 nav h1 {
     color: var(--primary-color);
-    text-shadow: 2px 1.5px var(--secondary-color);
+    /* text-shadow: 2px 2px var(--secondary-color); */
 }
 
 nav a {
@@ -236,18 +236,9 @@ nav ul li {
     margin: 10px;
 }
 
-/* scroll up */
-.upIcon {
-    position: fixed;
-    right: 0.5%;
-    bottom: 3%;
-    cursor: pointer;
-    background: var(--primary-color);
-    border-radius: 5rem;
-}
-  
-.up-arrow {
-    width: 100%;
+.project-link:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 /* contact */
@@ -278,6 +269,25 @@ nav ul li {
     padding: .25rem;
     border: 2px solid var(--primary-color);
     box-shadow: 5px 5px var(--primary-color);
+}
+
+.contactLink:hover {
+    border: 2px solid var(--secondary-color);
+    box-shadow: 5px 5px var(--secondary-color);
+}
+
+/* scroll up */
+.upIcon {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+    background: var(--primary-color);
+    border-radius: 5rem;
+}
+  
+#up-arrow:hover {
+    background: var(--secondary-color);
 }
 
 
