@@ -27,3 +27,16 @@ menuItems.forEach(
       menuItem.addEventListener("click", toggleMenu);
     }
   )
+
+
+
+// scroll to top
+const scrollUp = document.querySelector("#up-arrow");
+
+scrollUp.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
