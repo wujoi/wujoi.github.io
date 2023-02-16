@@ -4,7 +4,7 @@
 
 👩‍💻 This website is a work-in-progress. 
 
-📷 All photos on the site were taken by my friend Jacob Morris - check out his other work <a href="https://www.instagram.com/jaymoa7/?hl=en">HERE</a>.
+📷 All photos on the site were taken by my friend Jacob Morris during one of our many adventures - check out his other work <a href="https://www.instagram.com/jaymoa7/?hl=en">HERE</a>.
 
 📝 Please feel free to provide any suggestions or feedback.
 
