@@ -2,17 +2,22 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Poiret_One';
+    src: url(../Poiret_One/PoiretOne-Regular.ttf) format('truetype');
+}
+
 /* variables */
 :root {
-    --font-family: "Arial", sans-serf;
+    --font-family: "Poiret_One";
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
-    --bg-color: whitesmoke;
-    --primary-color: palevioletred;
-    --secondary-color: olivedrab;
-    --primary-shadow: lightgray;
-    --secondary-shadow: tan;
+    --bg-color: #f6f2eb;
+    --primary-color: #66bdc2;
+    --secondary-color: #fbfbfe;
+    --primary-shadow: #a9c0ae;
+    --secondary-shadow: #825d4e;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -53,20 +58,20 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
-    box-shadow: 0 2px 2px rgba(216, 112, 147, 0.5);
+    background-color: #007ec8;
+    /* box-shadow: 0 2px 2px var(--primary-color); */
   }
 
 nav h1 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     /* text-shadow: 2px 2px var(--secondary-color); */
 }
 
 nav a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     transition: 0.3s;
 }
-nav a:hover {
+.navlist a:hover {
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
 }
@@ -154,7 +159,8 @@ nav ul li {
 }
 
 .home-img {
-    width: 50%;
+    width: 100%;
+    margin-top: 0px;
 }
 
 /* about */
@@ -183,6 +189,10 @@ nav ul li {
 
 .icon {
     width: 10rem;
+}
+
+.sublist {
+    padding-left: 2rem;
 }
 
 /* projects */
