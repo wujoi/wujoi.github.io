@@ -203,9 +203,13 @@ nav ul li {
 }
 
 .about ul { 
-	width: 400px; 
 	margin-left: auto; 
 	margin-right: auto; 
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* word-wrap: break-word; */
+    overflow-wrap: break-word;
+    hyphens: manual;
 }
 
 .text-container {
@@ -272,6 +276,15 @@ nav ul li {
     justify-content: center;
 }
 
+    /* row --> column on smaller screens */
+    @media only screen and (max-width: 600px) {
+        .projects-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
   
 .project-container {
     text-align: center;
