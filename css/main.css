@@ -195,7 +195,7 @@ nav ul li {
     filter: grayscale(1); 
     margin-top: 0px;
     overflow: auto;
-  }
+}
 
 .about:hover {
     -webkit-filter: grayscale(0);
