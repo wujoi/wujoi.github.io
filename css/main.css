@@ -288,9 +288,9 @@ nav ul li {
   
 .project-container {
     text-align: center;
-    width: 21.875rem;
+    max-width: 21.875rem;
+    min-height: 21.875rem;
     padding: 1rem;
-    overflow: scroll;
 }
 
 .project-container p {
